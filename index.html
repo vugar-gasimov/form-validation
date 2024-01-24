@@ -3,23 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login</title>
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
+    <title>Form-Validation</title>
     <link rel="stylesheet" href="styles.css" />
+    <script defer src="validation.js"></script>
   </head>
   <body>
     <div class="full-screen-container">
       <div class="login-container">
         <h1 class="login-title">Welcome</h1>
-        <form class="form">
-          <div class="input-group success">
+        <form id="form" class="form" action="/" method="GET">
+          <div class="input-group">
             <label for="email">Email</label>
             <input type="email" name="email" id="email" />
-            <span class="msg">Valid email</span>
+            <span class="msg"></span>
           </div>
-          <div class="input-group error">
+          <div class="input-group">
+            <label for="name">Name</label>
+            <input type="name" name="name" id="name" />
+            <span class="msg"></span>
+          </div>
+          <div class="input-group">
             <label for="password">Password</label>
-            <input type="password" name="password" id="password" />
-            <span class="msg">Incorrect password</span>
+            <input type="password" name="password" id="password" required />
+            <span class="msg"></span>
           </div>
           <button type="submit" class="login-btn">Login</button>
         </form>

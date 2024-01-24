@@ -1,10 +1,10 @@
-# Login Exercise Project
+# Form-Validation Exercise Project
 
-This project is a simple login form with HTML and CSS. It includes form validation and styling for a clean and responsive design.
+This project is a simple form with HTML, CSS, and JavaScript. It includes form validation and styling for a clean and responsive design.
 
 ## Table of Contents
 
-- [Login Exercise Project](#login-exercise-project)
+- [Form-Validation Exercise Project](#form-validation-exercise-project)
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
   - [Project Structure](#project-structure)
@@ -12,16 +12,13 @@ This project is a simple login form with HTML and CSS. It includes form validati
 
 ## Introduction
 
-The project consists of a login form with the following features:
-
-- Responsive design for various screen sizes.
-- Form validation for email and password fields.
-- Success and error messages for better user feedback.
+The project consists of a responsive login form with form validation for email, name, and password fields. It provides success and error messages to enhance user feedback.
 
 ## Project Structure
 
 - `index.html`: The main HTML file containing the structure of the login form.
 - `styles.css`: The CSS file with styles for the login form and responsiveness.
+- `validation.js`: The JavaScript file handling form validation and error messaging.
 
 ## Usage
 
